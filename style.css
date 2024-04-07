@@ -1,0 +1,144 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: rgb(135, 170, 235);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex-container {
+    width: 300px;
+    height: 500px;
+    background-color: rgb(251, 236, 255);
+    padding: 10px 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container .content {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.flex-container .content .part-1 {
+    background-color: rgb(164, 97, 193);
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.flex-container .content .questions-container {
+    background-color: white;
+    width: 95%;
+    height: 95%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    color: rgb(164, 47, 193);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: bold;
+    /* padding: 15px; */
+}
+
+.flex-container .content .questions-container h4 {
+    font-weight: bolder;
+}
+
+.flex-container .content .part-2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+   
+}
+
+
+.flex-container .content .part-2 .options{
+    color: black;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    cursor: pointer;
+
+ 
+    /* height: 100%; */
+  
+}
+
+.flex-container .content .part-2 .button-container {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    height: 40px;
+
+    /* height: 100%; */
+  
+}
+
+.flex-container .content .part-2 button {
+    width: 40%;
+    background-color: rgb(154, 52, 197);
+    border-radius: 8px;
+    border: none;
+    /* height: 30px; */
+    color: white;
+    cursor: pointer;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.flex-container .content .part-2 button:hover {
+    background-color: rgb(144, 41, 189);
+}/* CSS code in style.css */
+
+.option {
+    /* background-color: lightgray; */
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    width:fit-content;
+    border-radius: 8px;
+}
+
+.option:hover {
+    background-color:rgb(238, 236, 236);
+}
+
+.progressbar-container {
+    display: none; /* Hide the progress bar container initially */
+
+}
+
+.progressbar {
+    height: 15px;
+    transition: width 1s ease; /* Add transition property */
+    background-color: rgb(164, 47, 193);
+    transition: all 1s ease;
+border-radius: 20px;
+}

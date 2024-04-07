@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="content">
+            <div class="part-1">
+                <div class="questions-container">
+                    <div class="timer-container">
+                        <div id="timer"></div>
+                    </div>
+                    <h4 id="question-header">Questions</h4>
+                    <div id="question" class="question"></div>
+                    <div class="progressbar-container">
+                        <div id="progressbar" class="progressbar"></div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="part-2">
+                <div id="options" class="options">
+                </div>
+                <div class="button-container">
+                    <button id="next-btn">Next Question</button>
+                    <button id="reset-btn">Reset Quiz</button>
+                </div>
+
+                <div id="result"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
