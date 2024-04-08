@@ -85,8 +85,6 @@ a {
     gap: 5px;
     flex-direction: column;
     cursor: pointer;
-
- 
     /* height: 100%; */
   
 }
@@ -142,3 +140,4 @@ a {
     transition: all 1s ease;
 border-radius: 20px;
 }
+
