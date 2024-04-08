@@ -122,7 +122,7 @@ function handleOptionClick(event) {
 
         // Remove background color after a brief delay
         setTimeout(() => {
-            selectedOption.style.backgroundColor = '';
+            // selectedOption.style.backgroundColor = '';
         }, 1000);
     }
 }
